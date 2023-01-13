@@ -13,7 +13,7 @@ public class Custom implements HttpHandler {
 
         String query = exchange.getRequestURI().getQuery();
 
-        String body = "Hello";
+        String body = "OK";
         exchange.sendResponseHeaders(200, body.length());
         try (OutputStream os = exchange.getResponseBody()) { // (1)
             os.write(body.getBytes());

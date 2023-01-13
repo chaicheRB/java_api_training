@@ -7,7 +7,6 @@ import java.net.http.HttpResponse;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
-class ApiGameStartTest extends fr.lernejo.navy_battle.server.context.Test {
+class ApiGameStartTest {
 
 }
